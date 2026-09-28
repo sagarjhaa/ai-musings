@@ -8,7 +8,7 @@ exercises you can do on your own machine.
 
 | # | Concept | What you'll build | Status |
 |---|---------|-------------------|--------|
-| 01 | [Vector Embeddings](01-vector-embeddings/) | Similarity metrics from scratch, word vectors from co-occurrence, semantic search, 2D embedding maps | 🚧 In progress |
+| 01 | [Vector Embeddings](01-vector-embeddings/) | Similarity metrics from scratch, word vectors from co-occurrence, semantic search, 2D embedding maps | 📘 Notebook ready · exercises in progress |
 | 02 | Vector Databases | _planned_ | ⏳ |
 | 03 | Retrieval-Augmented Generation (RAG) | _planned_ | ⏳ |
 | 04 | Tokenization | _planned_ | ⏳ |

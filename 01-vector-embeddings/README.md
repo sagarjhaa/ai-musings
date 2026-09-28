@@ -55,6 +55,28 @@ trains on the spot, so every cell still runs.
 6. **Visualize:** PCA and t-SNE maps, and k-means clusters.
 7. **Exercises:** see the end of the notebook.
 
+## Terminal playground
+
+```bash
+python semantic_search.py                        # interactive, built-in sample docs
+python semantic_search.py my_notes.txt -k 5      # your own file, one doc per line
+python semantic_search.py -q "cheap flights"     # single query
+```
+
+## Exercise tracker
+
+Tick these off as you finish them. Put solutions in new notebook cells, or in
+an `exercises/` folder here.
+
+- [ ] 1. `most_similar`: nearest items by cosine similarity
+- [ ] 2. Metric showdown: cosine vs. dot product vs. Euclidean
+- [ ] 3. Word arithmetic: `king - man + woman`
+- [ ] 4. Break it: three queries where semantic search fails
+- [ ] 5. Your own corpus: embed, plot, cluster
+- [ ] 6. Hybrid search: keyword + semantic
+- [ ] 7. Compare models: MiniLM vs. MPNet
+- [ ] 8. Stretch: brute-force search at 10k and 1M vectors
+
 ## Takeaways
 
 _Filled in after finishing the chapter. See [LEARNING_LOG.md](../LEARNING_LOG.md)._
