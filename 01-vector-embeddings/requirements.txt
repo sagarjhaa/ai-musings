@@ -1,0 +1,5 @@
+numpy>=1.26
+matplotlib>=3.8
+scikit-learn>=1.4
+sentence-transformers>=3.0   # pulls in torch; first run downloads a ~90 MB model
+jupyterlab>=4.0
